@@ -146,6 +146,7 @@ ul li a:hover{
   position: absolute;
   top: 50%;
   color: #DAD9D9;
+  max-width: 100%;
   left: 56%;
   margin-top: auto;
   border-style: dotted none none;
@@ -197,6 +198,7 @@ ul li a:hover{
 .design-containner-2-images hr{
   position: absolute;
   top: 50%;
+  max-width: 100%;
   color: #DAD9D9;
   margin-top: auto;
   left: 26%;
