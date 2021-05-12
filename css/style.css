@@ -13,17 +13,17 @@ hr{
 }
 
 .top-menu{
-  top: 0px;
-  padding: 10px 0px 10px 0px;
-  background-color:  #E0EBE8;
-  position: absolute;
+  padding: 20px 0px 20px 0px;
+  background-color: #E0EBE8;
+  display: flex;
+  margin-bottom: -1px;
   width: 100%;
 }
 
 .top-menu ul{
-  float: right;
-  position: relative;
-  right: 8%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 3%;
 }
 
 .top-menu ul li{
@@ -46,11 +46,10 @@ ul li a:hover{
 }
 
 .top-menu img{
-  width: 7%;
+  width: 60%;
   max-width: 100px;
-  position: relative;
-  margin-left: 40px;
-  float: left;
+  margin-left: 52%;
+  display: inline-block;
 }
 
 .top-containner{
@@ -316,9 +315,8 @@ ul li a:hover{
 /* about page stylesheet */
 
 .work-page-top-containner{
-  z-index: -1;
   position: relative;
-  padding: 130px;
+  padding-top: 149px;
   background-color: #E0EBE8;
   color: #39A488;
   font-size: 21px;
@@ -327,9 +325,10 @@ ul li a:hover{
 }
 
 .work-page-top-containner h1{
-  top: 60px;
-  font-size: 56px;
+  bottom: 60px;
   position: relative;
+  margin: 0 auto 0 auto;
+  font-size: 56px;
 }
 
 .work-page-top-containner .top-cloud{
